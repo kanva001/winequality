@@ -22,7 +22,8 @@ def get_data(config_path):
     df = pd.read_csv(data_path, sep=",", encoding="utf-8")
     #print(df.head())
     return df
-    
+
+# extra comments
     
 
 # 1.create name as an entry point
