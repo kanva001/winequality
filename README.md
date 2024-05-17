@@ -41,7 +41,9 @@ git pull https://github.com/kanva001/winequality main
 
 git pull origin main --allow-unrelated-histories
 
+'''bash
 git push -u origin main
+'''bash
 
 
 
