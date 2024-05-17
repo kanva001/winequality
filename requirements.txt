@@ -2,3 +2,4 @@ dvc
 dvc[gdrive]
 scikit-learn
 #sklearn -  this is deprecated so, install scikit-learn
+pandas
