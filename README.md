@@ -33,9 +33,15 @@ git commit -m "first commit"
 
 git add . && git commit -m "updated README.md"
 
-
+git remote add origin https://github.com/kanva001/winequality.git
 
 git branch -M main
  
+git pull https://github.com/kanva001/winequality main
+
+git pull origin main --allow-unrelated-histories
+
+git push -u origin main
+
 
 
