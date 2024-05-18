@@ -16,7 +16,8 @@ conda activate wineq
 pip install -r requirements.txt
 ```
 
-5. ```bash
+
+```bash
 touch README.md
 touch template.py
 ```
@@ -24,6 +25,7 @@ touch template.py
 ```bash
 git init
 ```
+
 ```bash
 dvc init
 ```
@@ -58,9 +60,9 @@ git pull https://github.com/kanva001/winequality main
 git pull origin main --allow-unrelated-histories
 ```
 
-'''bash
+```bash
 git push -u origin main
-'''
+```
 
 
 tox command - 
