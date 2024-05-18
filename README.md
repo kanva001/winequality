@@ -1,21 +1,19 @@
-1. Create environment
-
+Create environment
 ```bash
 conda create -n wineq python=3.8 -y
 ```
 
-2. Activate environment
+Activate environment
 ```bash
 conda activate wineq
 ```
 
-3. Create requirements.txt
+Create requirements.txt
 
-4. install the requirements
+install the requirements
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ```bash
 touch README.md
@@ -75,8 +73,9 @@ for rebuilding the env
 ```bash
 tox -r
 ```
-
+```bash
 pytest -v
+```
 ```bash
 pip install -e .
 ```
