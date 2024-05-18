@@ -1,25 +1,25 @@
 1. Create environment
 
-"""bash
+```bash
 conda create -n wineq python=3.8 -y
-"""
+```
 
 2. Activate environment
-'''bash
+```bash
 conda activate wineq
-'''
+```
 
 3. Create requirements.txt
 
 4. install the requirements
-"""bash
+```bash
 pip install -r requirements.txt
-"""
+```
 
-5. """bash
+5. ```bash
 touch README.md
 touch template.py
-"""
+```
 
 git init
 
@@ -46,3 +46,24 @@ git push -u origin main
 '''bash 
 
 
+tox command - 
+
+```bash
+tox
+```
+
+for rebuilding the env 
+```bash
+tox -r
+```
+
+pytest -v
+```bash
+pip install -e .
+```
+
+To build own pacjages, use the command
+
+```bash
+python setup.py sdist bdist_wheel
+```

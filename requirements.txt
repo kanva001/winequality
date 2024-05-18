@@ -1,3 +1,7 @@
+#to install local packages
+-e .
+
+# these are third party packages required for the project
 dvc
 dvc[gdrive]
 scikit-learn
